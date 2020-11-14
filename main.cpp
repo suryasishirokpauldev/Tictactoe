@@ -1,10 +1,10 @@
 #include <iostream>
-#include "tictactoeui.h"
+#include "GameEngine.h"
 using namespace std;
 
 int main()
 {
-	TictactoeUI tictactoeui;
-	tictactoeui.showBoard();
+	GameEngine gameEngine(3);
+	gameEngine.playGame();
 	return 0;
 }
