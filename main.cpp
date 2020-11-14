@@ -1,7 +1,10 @@
 #include <iostream>
+#include "tictactoeui.h"
 using namespace std;
+
 int main()
 {
-	std::cout<<"First commit"<<std::endl;
+	TictactoeUI tictactoeui;
+	tictactoeui.showBoard();
 	return 0;
 }
